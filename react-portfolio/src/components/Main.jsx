@@ -27,9 +27,14 @@ const Main = () => {
                             repeat={Infinity}
                         />
                     </h2>
+                    {/* github and linked in clickable icons */}
                     <div className='flex justify-between pt-6 max-w-[75px] w-full'>
-                        <FaGithub className='cursor-pointer' size={20}/>
-                        <FaLinkedin className='cursor-pointer' size={20}/>
+                        <a href='https://github.com/lndvng' target='blank'>
+                            <FaGithub className='cursor-pointer' size={20}/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/Lndvng/' target='blank'>
+                            <FaLinkedin className='cursor-pointer' size={20}/>
+                        </a>
                     </div>
                 </div>
             </div>
