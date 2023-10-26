@@ -40,4 +40,4 @@ The motive behind this project was to build a react portfolio. I learned how to 
 ![Screenshot of mobile view](../react-portfolio/react-portfolio/src/assets/Portfolio-mobileview.png)
 
 ## Deployed Link
-[Click here for deployed link](https://linda-react-portfolio.netlify.app/))
+[Click here for deployed link](https://linda-react-portfolio.netlify.app/)
