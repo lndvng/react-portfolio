@@ -4,6 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import Aboutme from './components/Aboutme'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <div>
         <Navbar />
         <Main />
+        <Aboutme />
+        <Projects />
       </div>
   )
 }
