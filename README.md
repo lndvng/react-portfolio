@@ -16,7 +16,7 @@ The motive behind this project was to build a react portfolio. I learned how to 
 4. Mobile window will have a navbar icons on the left side of the browser.
 5. Desktop window will have the navbar located on the top right corner.
 
-![Screenshot of mobile view](../react-portfolio/react-portfolio/src/assets/Portfolio-mobileview.png)
+![Screenshot of mobile view](../src/assets/Portfolio-mobileview.png)
 
 ## Video Demo Link
 [Click here for deployed link](https://lndvng.github.io/react-portfolio/)
