@@ -3,10 +3,11 @@ import ProjectsItem from './ProjectsItem'
 // importing project images
 import pokedexImg from '../assets/PokeDexSS.png'
 import helpdeskImg from '../assets/HelpDeskTechView.png'
-import PWAImg from '../assets/PWA-text-editor.png'
-import SocialImg from '../assets/Social-api.png'
-import EcommerceImg from '../assets/Ecommerce.png'
+// import PWAImg from '../assets/PWA-text-editor.png'
+// import SocialImg from '../assets/Social-api.png'
+// import EcommerceImg from '../assets/Ecommerce.png'
 import EmpTrackerImg from '../assets/Employee-tracker.png'
+import SnackHappyImg from '../assets/Snack-happy.png'
 
 const Projects = () => {
     return (
@@ -16,22 +17,16 @@ const Projects = () => {
             {/* clickable project preview images that will open project links in new window */}
             <div className='grid sm:grid-cols-2 gap-12'>
                 <a href='https://github.com/KrystianKowalak/poke-match' target='blank'>
-                    <ProjectsItem img={pokedexImg} title='PokedexImg'/>
+                    <ProjectsItem img={SnackHappyImg} title='snack happy preview' />
+                </a>
+                <a href='https://github.com/KrystianKowalak/poke-match' target='blank'>
+                    <ProjectsItem img={pokedexImg} title='PokedexImg' />
                 </a>
                 <a href='https://murmuring-chamber-70429-75790581b652.herokuapp.com/login' target='blank'>
-                    <ProjectsItem img={helpdeskImg} title='HelpdeskImg'/>
-                </a>
-                <a href='https://github.com/lndvng/social-network-api' target='blank'>
-                    <ProjectsItem img={SocialImg} title=''/>
-                </a>
-                <a href='https://pwa-text-editor529-00b07254ecfb.herokuapp.com/' target='blank'>
-                    <ProjectsItem img={PWAImg} title=''/>
+                    <ProjectsItem img={helpdeskImg} title='HelpdeskImg' />
                 </a>
                 <a href='https://github.com/lndvng/employee-tracker' target='blank'>
-                    <ProjectsItem img={EmpTrackerImg} title=''/>
-                </a>
-                <a href='https://github.com/lndvng/ecommerce-back-end' target='blank'>
-                    <ProjectsItem img={EcommerceImg} title=''/>
+                    <ProjectsItem img={EmpTrackerImg} title='' />
                 </a>
             </div>
         </div>
